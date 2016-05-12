@@ -1,0 +1,4 @@
+﻿main.obj : error LNK2019: 未解決の外部シンボル __imp__NuiGetSensorCount@4 が関数 "bool __cdecl initKinect(void)" (?initKinect@@YA_NXZ) で参照されました。
+main.obj : error LNK2019: 未解決の外部シンボル __imp__NuiCreateSensorByIndex@8 が関数 "bool __cdecl initKinect(void)" (?initKinect@@YA_NXZ) で参照されました。
+C:\Program Files\Microsoft SDKs\Kinect\v1.8\/lib/amd64\kinect10.lib : warning LNK4272: ライブラリのコンピューターの種類 'x64' がターゲットのコンピューターの種類' X86' と競合しています
+E:\GoogleDrive\104-2_Spring_Semester\Kinect\hello_kinect\Debug\hello_kinect.exe : fatal error LNK1120: 2 件の未解決の外部参照

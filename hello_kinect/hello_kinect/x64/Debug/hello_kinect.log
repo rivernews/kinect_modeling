@@ -1,0 +1,5 @@
+﻿  main.cpp
+e:\googledrive\104-2_spring_semester\kinect\hello_kinect\hello_kinect\main.cpp(140): warning C4800: 'INuiSensor *': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+e:\googledrive\104-2_spring_semester\kinect\hello_kinect\hello_kinect\main.cpp(161): warning C4800: 'INuiSensor *': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+  hello_kinect.vcxproj -> E:\GoogleDrive\104-2_Spring_Semester\Kinect\hello_kinect\x64\Debug\hello_kinect.exe
+  hello_kinect.vcxproj -> E:\GoogleDrive\104-2_Spring_Semester\Kinect\hello_kinect\x64\Debug\hello_kinect.pdb (Partial PDB)

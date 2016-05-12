@@ -1,0 +1,75 @@
+﻿<Window x:Class="csharp_kinect_info.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:csharp_kinect_info"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="925">
+    <Window.Resources>
+
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="73*"></RowDefinition>
+            <RowDefinition Height="361*"></RowDefinition>
+            <RowDefinition Height="85*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <!-- Info -->
+        <Grid Grid.Row="0" Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="97*"></ColumnDefinition>
+                <ColumnDefinition Width="420*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="0" >Connection ID</TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding ConnectionID}" />
+            <TextBlock Grid.Row="1" Grid.Column="0">Sensor Angle</TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding SensorAngle}"/>
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="Sensor Status"></TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="1"  Text="{Binding SensorStatus}" />
+            <TextBlock Grid.Row="3" Grid.Column="0" Text="Frame Number" />
+            <TextBlock Grid.Row="3" Grid.Column="1" Text="{Binding FrameNumber}" />
+        </Grid>
+
+        <!-- Image -->
+        <Grid Grid.Row="1" Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Image Grid.Row="0" Grid.Column="0" Name="VideoControl" Stretch="Fill"/>
+            <Image Grid.Row="0" Grid.Column="1" Name="DepthImageControl" Stretch="Fill"></Image>
+        </Grid>
+
+        <!-- Buttons -->
+        <Grid Grid.Row="2" Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button Grid.Row="0" Grid.Column="0" Click="Button_Click">Start</Button>
+            <Button Grid.Row="0" Grid.Column="1" Click="Button_Click">Stop</Button>
+            <Button Grid.Row="1" Grid.Column="0" Click="Button_Click">Up</Button>
+            <Button Grid.Row="1" Grid.Column="1" Click="Button_Click">Down</Button>
+            <Button Name="SaveButton" Grid.Row="2" Grid.Column="0" Click="Button_Click">Save</Button>
+        </Grid>
+    </Grid>
+</Window>

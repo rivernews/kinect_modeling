@@ -1,0 +1,12 @@
+﻿  ColorBasics.cpp
+e:\googledrive\104-2_spring_semester\kinect\colorbasics-d2d\colorbasics.cpp(369): warning C4477: 'printf' : 書式文字列 '%s' には、型 'char *' の引数が必要ですが、可変個引数 1 は型 'WCHAR *' です
+  e:\googledrive\104-2_spring_semester\kinect\colorbasics-d2d\colorbasics.cpp(369): note: 書式文字列に '%ls' を使用することをお勧めします
+  e:\googledrive\104-2_spring_semester\kinect\colorbasics-d2d\colorbasics.cpp(369): note: 書式文字列に '%lls' を使用することをお勧めします
+  e:\googledrive\104-2_spring_semester\kinect\colorbasics-d2d\colorbasics.cpp(369): note: 書式文字列に '%Ls' を使用することをお勧めします
+  e:\googledrive\104-2_spring_semester\kinect\colorbasics-d2d\colorbasics.cpp(369): note: 書式文字列に '%ws' を使用することをお勧めします
+e:\googledrive\104-2_spring_semester\kinect\colorbasics-d2d\colorbasics.cpp(371): warning C4477: 'printf' : 書式文字列 '%s' には、型 'char *' の引数が必要ですが、可変個引数 1 は型 'WCHAR *' です
+  e:\googledrive\104-2_spring_semester\kinect\colorbasics-d2d\colorbasics.cpp(371): note: 書式文字列に '%ls' を使用することをお勧めします
+  e:\googledrive\104-2_spring_semester\kinect\colorbasics-d2d\colorbasics.cpp(371): note: 書式文字列に '%lls' を使用することをお勧めします
+  e:\googledrive\104-2_spring_semester\kinect\colorbasics-d2d\colorbasics.cpp(371): note: 書式文字列に '%Ls' を使用することをお勧めします
+  e:\googledrive\104-2_spring_semester\kinect\colorbasics-d2d\colorbasics.cpp(371): note: 書式文字列に '%ws' を使用することをお勧めします
+  ColorBasics-D2D.vcxproj -> E:\GoogleDrive\104-2_Spring_Semester\Kinect\ColorBasics-D2D\Debug\ColorBasics-D2D.exe

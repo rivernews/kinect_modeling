@@ -1,0 +1,16 @@
+D:\workspace\csharp_kinect_info\csharp_kinect_info\bin\Debug\csharp_kinect_info.exe.config
+D:\workspace\csharp_kinect_info\csharp_kinect_info\obj\Debug\csharp_kinect_info.exe
+D:\workspace\csharp_kinect_info\csharp_kinect_info\obj\Debug\csharp_kinect_info.pdb
+D:\workspace\csharp_kinect_info\csharp_kinect_info\bin\Debug\csharp_kinect_info.exe
+D:\workspace\csharp_kinect_info\csharp_kinect_info\bin\Debug\csharp_kinect_info.pdb
+D:\workspace\csharp_kinect_info\csharp_kinect_info\bin\Debug\Microsoft.Kinect.dll
+D:\workspace\csharp_kinect_info\csharp_kinect_info\bin\Debug\Microsoft.Kinect.xml
+D:\workspace\csharp_kinect_info\csharp_kinect_info\obj\Debug\csharp_kinect_info.csprojResolveAssemblyReference.cache
+D:\workspace\csharp_kinect_info\csharp_kinect_info\obj\Debug\MainWindow.g.cs
+D:\workspace\csharp_kinect_info\csharp_kinect_info\obj\Debug\App.g.cs
+D:\workspace\csharp_kinect_info\csharp_kinect_info\obj\Debug\csharp_kinect_info_MarkupCompile.cache
+D:\workspace\csharp_kinect_info\csharp_kinect_info\obj\Debug\csharp_kinect_info_MarkupCompile.lref
+D:\workspace\csharp_kinect_info\csharp_kinect_info\obj\Debug\MainWindow.baml
+D:\workspace\csharp_kinect_info\csharp_kinect_info\obj\Debug\csharp_kinect_info.g.resources
+D:\workspace\csharp_kinect_info\csharp_kinect_info\obj\Debug\csharp_kinect_info.Properties.Resources.resources
+D:\workspace\csharp_kinect_info\csharp_kinect_info\obj\Debug\csharp_kinect_info.csproj.GenerateResource.Cache
