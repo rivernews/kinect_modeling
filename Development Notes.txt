@@ -1,0 +1,10 @@
+Read on princeton webpage material.
+Goal 2 = 把兩張不同視角拍攝的 kinect 畫面疊在一起
+far goal = 這樣我們就可以做後續的 HDR 亮度結合
+
+prototyping(2 images with different angles){
+
+	// TODO: merge these two images
+
+	return image;
+}
