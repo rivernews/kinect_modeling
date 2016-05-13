@@ -8,3 +8,26 @@ prototyping(2 images with different angles){
 
 	return image;
 }
+
+Introdiction to SiftFu(){
+	keyword.known = ['3D reconstruction',
+	'Kinect video input',
+	'image and depth']
+
+	keyword.unknown = ['sparse SIFT keypoint matching',
+	'like Kinect Fusion']
+
+	keyword.notes = [' improve the raw depth map from Kinect using the depth from other frames']
+}
+
+// look up the file structure
+Most of them are .m matlab files. Also one .cpp file.
+// How to use it?
+It says "run SiftFu.m in Matlab." in the Princeton page.
+Let's try running it, without any modification.
+// Error came up when try to run
+Ok now we try to debug it.
+// Turns out that the filename is local, and we don't have one. Perhaps an exmaple will help; otherwise we need to figure out the input file format.
+No, no example for SiftFu. Only one that is similar to it, SUN3Dsfm, just above it in the princeton page.
+We will try to figure out input format, based on the matlab source code.
+// We reached a milestone. Report it to prof.
