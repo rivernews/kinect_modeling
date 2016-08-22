@@ -21,9 +21,9 @@ if ~exist('sequenceName','var')
     % load demo sequence
     % look for all sequence name list at http://sun3d.csail.mit.edu/player/list.html
     %sequenceName = 'hotel_mr/scan1';  % error reported
-    sequenceName = 'hotel_umd/maryland_hotel3';
+    %sequenceName = 'hotel_umd/maryland_hotel3'; % error reported: memory
     %sequenceName = 'brown_bm_1/brown_bm_1';
-    %sequenceName = 'mit_32_d428/bs4j179mmv'; % error reported: memory
+    sequenceName = 'mit_32_d428/bs4j179mmv'; % error reported: memory
 end
 
 % the root path of SUN3D
