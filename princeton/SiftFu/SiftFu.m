@@ -20,16 +20,17 @@ toVisualize = true;
 if ~exist('sequenceName','var')
     % load demo sequence
     % look for all sequence name list at http://sun3d.csail.mit.edu/player/list.html
-    %sequenceName = 'hotel_mr/scan1';
-    %sequenceName = 'hotel_umd/maryland_hotel3';
+    %sequenceName = 'hotel_mr/scan1';  % error reported
+    sequenceName = 'hotel_umd/maryland_hotel3';
     %sequenceName = 'brown_bm_1/brown_bm_1';
-    sequenceName = 'mit_32_d428/bs4j179mmv';
+    %sequenceName = 'mit_32_d428/bs4j179mmv'; % error reported: memory
 end
 
 % the root path of SUN3D
 % change it to local if you downloaded the data
 %SUN3Dpath = '/data/vision/torralba/sun3d/record/scene_final';
-SUN3Dpath = 'http://sun3d.csail.mit.edu/data/';
+%SUN3Dpath = 'http://sun3d.csail.mit.edu/data/';
+SUN3Dpath = 'https://sun3d.cs.princeton.edu/data/';
 
 % read intrinsic
 global K;
